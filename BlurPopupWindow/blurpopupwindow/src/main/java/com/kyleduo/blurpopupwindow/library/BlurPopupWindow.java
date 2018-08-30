@@ -158,7 +158,7 @@ public class BlurPopupWindow extends FrameLayout {
 
         WindowManager.LayoutParams params = new WindowManager.LayoutParams();
         params.width = WindowManager.LayoutParams.MATCH_PARENT;
-        params.height = WindowManager.LayoutParams.MATCH_PARENT;
+        params.height = WindowManager.LayoutParams.WRAP_CONTENT;
         params.format = PixelFormat.RGBA_8888;
 
         int statusBarHeight = 0;
